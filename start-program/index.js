@@ -3,4 +3,3 @@ function greet(name) {
 }
 var message = greet("World");
 console.log(message);
-
