@@ -6,13 +6,13 @@ userName = [213,60];
 
 
 //history of all previous values
-let history: any[] = [];
-let userName: any;
+let valueHistory: any[] = [];
+//let userName: any;
 
-userName = "Firoz"; history.push(userName);
-userName = "04";    history.push(userName);
-userName = true;    history.push(userName);
-userName = [213,60];history.push(userName);
+userName = "Firoz"; valueHistory.push(userName);
+userName = "04";    valueHistory.push(userName);
+userName = true;    valueHistory.push(userName);
+userName = [213,60];valueHistory.push(userName);
 
-console.log(history[1]); // prints: 04 (index 1)
-console.log(history);    // prints full history
+console.log(valueHistory[1]); // prints: 04 (index 1)
+console.log(valueHistory);    // prints full history
